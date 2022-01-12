@@ -11,22 +11,22 @@ class Product
         $this->price = $price;
     }
 
-    public function setName(string $name): void
+    public function setName($name)
     {
         $this->name = $name;
     }
 
-    public function getName(): string
+    public function getName()
     {
         return $this->name;
     }
 
-    public function setPrice(int $price): void
+    public function setPrice( $price)
     {
         $this->price = $price;
     }
 
-    public function getPrice(): int
+    public function getPrice()
     {
         return $this->price;
     }

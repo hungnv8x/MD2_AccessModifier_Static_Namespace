@@ -9,12 +9,12 @@ class ProductManager
         $this->products = [];
     }
 
-    public function add($product): void
+    public function add($product)
     {
         $this->products[] = $product;
     }
 
-    public function getProducts(): array
+    public function getProducts()
     {
         return $this->products;
     }
